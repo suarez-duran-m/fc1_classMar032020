@@ -2,8 +2,9 @@ from numpy import loadtxt
 
 data = loadtxt('pitch.txt')                                     
 
-from pylab import plot, show                                    
+from pylab import plot, show, title
 
-plot(data)                                                      
+plot(data)
+title('ok')                             
 
 show() 
