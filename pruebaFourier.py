@@ -6,5 +6,6 @@ from pylab import plot, show, title
 
 plot(data)
 title('ok')                             
+xaxix('time0')
 
 show() 
